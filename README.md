@@ -6,20 +6,6 @@ This is a simple Quiz App built with Flutter. It uses fundamental Flutter concep
 
 The Quiz App displays a series of questions to the user with multiple-choice answers. As the user selects an answer, the app updates the score and progresses to the next question. At the end of the quiz, the user's final score is displayed.
 
-## Project Structure
-
-The project is organized into the following main files and folders:
-
-- `lib/main.dart`: This is the entry point of the app. It runs the `QuizApp` widget which is a `MaterialApp`.
-
-- `lib/screens/quiz_screen.dart`: This is where the main logic of the app resides. It's a `StatefulWidget` that manages the state of the quiz, such as the current question index and the user's score.
-
-- `lib/widgets/question_card.dart` and `lib/widgets/option.dart`: These are `StatelessWidget`s that receive props from `QuizScreen` and render the current question and options to the user.
-
-- `lib/models/quiz_question.dart`: This defines the `QuizQuestion` model used to structure the quiz data.
-
-- `lib/dummy_data.dart`: This file contains the list of `QuizQuestion`s used in the app.
-
 ## Concepts Used
 
 ### Stateless and Stateful Widgets
